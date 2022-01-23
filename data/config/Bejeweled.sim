@@ -1,0 +1,26 @@
+Game=Bejeweled
+Controls=Left,SwapLeft/Right,SwapRight/Down,SwapDown/Up,SwapUp
+Gravity=True
+InitialStates = iwijfijewi
+SetActiveAgent=RetainCurrentAgents
+MoveBoundaries=EdgeBoundary,OtherEntityBoundary
+DestroyBlocks= GroupDestroy
+SpawnNewEntities=True,RandomCellSpawner,2,64
+IncreaseScore=NumBlocksDestroyed
+EndGame=TimeOut
+MouseControl = True
+GridSize=10,10
+AnimationSpeed=1
+ShowTimer=True
+NumberOfStates = 2
+StartingScore = 0
+SpawnOnEachTurn=True
+SpawnOnHitFloor=True
+State1Pic = data/bejeweled/bejeweled_blue.png
+State2Pic = data/bejeweled/bejeweled_green.png
+State3Pic = data/bejeweled/bejeweled_orange.png
+State4Pic = data/bejeweled/bejeweled_purple.png
+State5Pic = data/bejeweled/bejeweled_red.png
+State6Pic = data/bejeweled/bejeweled_white.png
+State7Pic = data/bejeweled/bejeweled_yellow.png
+
