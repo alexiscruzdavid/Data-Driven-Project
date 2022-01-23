@@ -1,0 +1,12 @@
+.outer_frame {
+    -fx-background-color: snow;
+}
+
+.button {
+  -fx-border-color: black;
+  -fx-text-fill: black;
+}
+
+.label {
+  -fx-text-fill: black;
+}

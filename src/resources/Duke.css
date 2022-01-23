@@ -1,0 +1,12 @@
+.outer_frame {
+    -fx-background-color: blue;
+}
+.button {
+  -fx-background-color: white;
+  -fx-border-color: white;
+  -fx-text-fill: black;
+}
+
+.label {
+  -fx-text-fill: white;
+}

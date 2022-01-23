@@ -1,0 +1,70 @@
+.button {
+  -fx-font-family: Arial;
+  -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: lightgrey;
+    -fx-border-radius: 8px;
+}
+
+
+.toolbar {
+    -fx-alignment: CENTER;
+    -fx-spacing: 20px;
+}
+
+.game_select_pane {
+    -fx-alignment: CENTER;
+    -fx-spacing: 10px;
+    -fx-padding: 5 5 5 5px;
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.outer_frame {
+  -fx-alignment: center;
+  -fx-padding: 15;
+  -fx-spacing: 15;
+}
+
+.score_display {
+    -fx-alignment: CENTER;
+    -fx-spacing: 2px;
+}
+.game_info {
+    -fx-alignment: CENTER;
+    -fx-spacing: 5px;
+}
+.grid_stack {
+   -fx-alignment: baseline-center;
+   -fx-padding: 0 0 0 10px;
+}
+
+.grid-display {
+    -fx-alignment: center;
+    -fx-hgap: 3px;
+    -fx-vgap: 3px;
+    -fx-padding: 0 0 0 10px;
+}
+
+.check-box {
+    -fx-font-family: Arial;
+    -fx-font-size: 15px;
+}
+
+.menu-pane {
+    -fx-alignment: baseline-center;
+    -fx-hgap: 5px;
+    -fx-vgap: 5px;
+    -fx-padding: 5 5 5 5px;
+}
+
+.color-picker {
+  -fx-max-width: 75px;
+  -fx-max-height: 50px;
+}
